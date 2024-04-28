@@ -1,18 +1,16 @@
 /* eslint-disable react/prop-types */
-import { FiArrowDownRight } from "react-icons/fi";
+import "../../../scss/toggleButton.scss";
 import { motion } from "framer-motion";
+import { FaList } from "react-icons/fa6";
 
-const ToggleButton = ({ setOpen ,open }) => {
+const ToggleButton = ({ setOpen,open }) => {
   return (
-    <motion.button whileHover={{scale:1.1}}  className="button" onClick={() => setOpen((prev) => !prev)}>
-      <svg width="30" height="30" viewBox="0 0 23 23">
-          <FiArrowDownRight
-            style={{
-              fontSize: "30px",
-              color: "#2D3250",
-              opacity: open ? 0 : 1,
-            }}
-          />
+    <motion.button
+      onClick={() => setOpen((prev) => !prev)}
+    >
+      <svg viewBox="0 0 23 23" className="icon" >
+        <FaList fontWeight="bold" style={{color:open ? "#2D3250": "#2D3250"
+       }}/>
       </svg>
     </motion.button>
   );

@@ -2,7 +2,7 @@
   color: lightgray;
 
   .wrapper {
-    max-width: 1300px;
+    max-width: 2500px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -15,12 +15,13 @@
 
     .social {
       display: flex;
-      gap: 20px;
+      gap: 10px;
     }
 
     .icon {
       width: 30px;
       height: 30px;
+      margin-right: 10px;
     }
     .top-text{
         font-size: 25px;

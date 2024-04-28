@@ -11,15 +11,21 @@ const Navbar = () => {
       {/*Slidebar*/}
       <Slidebar />
       <div className="wrapper">
-        <motion.span initial={{opacity:0,scale:0.5}} animate={{opacity:1,scale:1}} transition={0.5} className="top-text">Portfolio</motion.span>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={0.5}
+          className="top-text"
+        >
+        </motion.span>
         <div className="social">
           <a href="#"></a>
-          <FaFacebook className="icon"/>
+          <FaFacebook className="icon" />
           <a href="#">
-            <AiFillInstagram className="icon"/>
+            <AiFillInstagram className="icon" />
           </a>
           <a href="#">
-            <FaLinkedin className="icon"/>
+            <FaLinkedin className="icon" />
           </a>
         </div>
       </div>
