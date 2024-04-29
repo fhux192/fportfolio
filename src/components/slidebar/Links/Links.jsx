@@ -16,23 +16,18 @@ const variants = {
   },
 };
 
-
-
 const Links = () => {
   const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
 
   return (
     <motion.div className="links" variants={variants}>
       {items.map((item) => (
-          <Link
-            to={item}
-            style={{ cursor: "pointer" }}
-            smooth={true}
-            duration={300}
-            key={item}
-          >
-            {item}
-          </Link>
+        <a
+          href={`#${item}`}
+          key={item}
+        >
+          {item}
+        </a>
       ))}
     </motion.div>
   );

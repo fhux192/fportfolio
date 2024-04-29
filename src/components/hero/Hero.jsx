@@ -10,7 +10,7 @@ const Hero = () => {
           <h1>Web developer and UI/UX designer</h1>
           <div className="buttons">
             <button>Download CV</button>
-            <button>Contact Me</button>
+            <button style={{background:"white",color:"black"}}>Contact Me</button>
           </div>
         </div>
       </div>

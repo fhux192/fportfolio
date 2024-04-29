@@ -1,3 +1,5 @@
+@import "./app.scss";
+
 .navbar {
   color: lightgray;
 
@@ -16,6 +18,10 @@
     .social {
       display: flex;
       gap: 10px;
+
+@include mobile{
+  gap:0px;
+}
     }
 
     .icon {
