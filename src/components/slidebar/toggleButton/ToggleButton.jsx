@@ -1,18 +1,17 @@
 /* eslint-disable react/prop-types */
 import "../../../scss/toggleButton.scss";
-import { motion } from "framer-motion";
 import { FaList } from "react-icons/fa6";
 
 const ToggleButton = ({ setOpen,open }) => {
   return (
-    <motion.button
+    <button
       onClick={() => setOpen((prev) => !prev)}
     >
-      <svg viewBox="0 0 23 23" className="icon" >
-        <FaList fontWeight="bold" style={{color:open ? "#2D3250": "#2D3250"
+      <div>
+        <FaList fontWeight="bold" className="icon" style={{color:open ? "#2D3250": "white"
        }}/>
-      </svg>
-    </motion.button>
+      </div>
+    </button>
   );
 };
 

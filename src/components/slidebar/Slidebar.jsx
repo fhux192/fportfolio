@@ -18,7 +18,7 @@ const Slidebar = () => {
     },
 
     closed: {
-      clipPath: "circle(30px at 42.5px 42px)",
+      clipPath: "circle(0px at 42.5px 33px)",
       transition: {
         type: "spring",
         stiffness: 400,

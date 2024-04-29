@@ -9,16 +9,18 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/*Slidebar*/}
-      <Slidebar />
+      
       <div className="wrapper">
         <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={0.5}
           className="top-text"
-        >
-        </motion.span>
+        ></motion.span>
+
         <div className="social">
+          
+          <div><Slidebar/></div>
           <a href="#"></a>
           <FaFacebook className="icon" />
           <a href="#">
