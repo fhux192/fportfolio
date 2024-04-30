@@ -50,7 +50,19 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          <motion.h2 variants={textVariants}>PHUC NGUYEN</motion.h2>
+          <motion.h2 variants={textVariants}>
+            <div>P</div>
+            <div>H</div>
+            <div>U</div>
+            <div>C</div>
+            <div> </div>
+            <div>N</div>
+            <div>G</div>
+            <div>U</div>
+            <div>Y</div>
+            <div>E</div>
+            <div>N</div>
+          </motion.h2>
           <h1 >
             I'm a {text}
             <span>
