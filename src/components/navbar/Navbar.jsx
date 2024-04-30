@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import Slidebar from "../slidebar/Slidebar";
-import { FaFigma } from "react-icons/fa";
+
 
 const Navbar = () => {
   return (

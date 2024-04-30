@@ -36,7 +36,7 @@ const slideVariants = {
 
 const Hero = () => {
   const [ text ] = useTypewriter({
-    words: ["Web Developer", "UI/UX Designer" ,"Freelancer"],
+    words: [" Web Developer", "n UI/UX Designer" ," Freelancer"],
     loop: {},
     typeSpeed: 100,
   });
@@ -64,7 +64,7 @@ const Hero = () => {
             <div>N</div>
           </motion.h2>
           <h1 >
-            I'm a {text}
+            I'm a{text}
             <span>
               <Cursor cursorColor="#f6b17a"/>
             </span>
