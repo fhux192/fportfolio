@@ -21,12 +21,13 @@ const Navbar = () => {
         <div className="social">
           
           <div><Slidebar/></div>
-          <a href="#"></a>
-          <FaFacebook className="icon" />
-          <a href="#">
+          <a href="https://www.facebook.com/phucnguyen.leeki">
+          <FaFacebook href="" className="icon" />
+          </a>
+          <a href="https://www.instagram.com/__fhux/">
             <AiFillInstagram className="icon" />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/pega-cyrus-a77032271/">
             <FaLinkedin className="icon" />
           </a>
         </div>

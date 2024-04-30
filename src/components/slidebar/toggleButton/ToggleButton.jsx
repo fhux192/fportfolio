@@ -1,16 +1,17 @@
 /* eslint-disable react/prop-types */
 import "../../../scss/toggleButton.scss";
 import { FaList } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const ToggleButton = ({ setOpen,open }) => {
   return (
     <button
       onClick={() => setOpen((prev) => !prev)}
     >
-      <div>
+      <motion.div whileHover={{scale:1.1}}>
         <FaList fontWeight="bold" className="icon" style={{color:open ? "#2D3250": "white"
        }}/>
-      </div>
+      </motion.div>
     </button>
   );
 };

@@ -26,8 +26,8 @@
       height: 100%;
       display: flex;
       margin-left: 5vh;
+      margin-top: 28vh;
       flex-direction: column;
-      justify-content: center;
       justify-items: center;
       gap: 40px;
 
@@ -36,6 +36,7 @@
         width: 80%;
         gap: 20px;
         margin-left: 0vh;
+        margin-top: 10vh;
         align-items: center;
         text-align: center;
       }
@@ -113,9 +114,11 @@
     bottom: -100px;
     white-space: nowrap;
     color: rgba(245, 245, 245, 0.088);
+    width: 90%;
+    font-weight: bold;
 
     @include mobile {
-      font-size: 50vh;
+      font-size: 60vh;
       bottom:-10%;
     }
   }
