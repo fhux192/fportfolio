@@ -27,7 +27,7 @@ const slideVariants = {
   animate: {
     x: "-220%",
     transition: {
-      duration: 10,
+      duration: 8,
       repeat: Infinity,
       repeatType: "mirror",
     },
@@ -86,7 +86,7 @@ const Hero = () => {
         animate="animate"
         className="slidingTextContainer"
       >
-        Science Computer
+        Computer Science
       </motion.div>
       {/* <div className="imageContainer">
         <img className="heroImg" src={fimg} alt="" />
