@@ -12,7 +12,7 @@
     margin-top: 7.4rem;
     font-size: 145px;
     z-index: 2;
-
+    
     @include mobile {
       font-size: 65px;
     }
@@ -30,9 +30,13 @@
   .universe {
     background-image: url("../assets/img/universe.png");
     background-size: cover;
-    width: 100%;
+    width: 110%;
     height: 100%;
     position: absolute;
+
+    @include mobile {
+      width: 300%;
+    }
   }
   .planet {
     background-image: url("../assets/img/planet.png");

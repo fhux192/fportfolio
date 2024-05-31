@@ -11,13 +11,13 @@ const Parallax = ({ type }) => {
     offset: ["start start", "end start"],
   });
 
-  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
+  const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "300%"]);
   const yS = useTransform(scrollYProgress, [0, 1], ["0%", "150%"]);
   return (
     <div className="parallax" ref={ref}>
       <motion.h1 style={{ y: yText }}>
-        {type === "services" ? "What I Did?" : "What we did?"}
+        {type === "services" ? "What I Did?" : "Portfolio"}
       </motion.h1>
       <motion.div style={{ y: yS }} className="planet"></motion.div>
       <motion.div style={{ x: yBg }} className="universe"></motion.div>
